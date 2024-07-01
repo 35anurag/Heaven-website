@@ -1,0 +1,29 @@
+.opening{
+    height: auto;
+    background-color: #141414;
+}
+
+.opening_weekdays{
+    display: flex;
+    flex-direction: row;
+    border: 0.3px solid #816b5b;
+}
+
+.monday,.tuesday,.wednesday,.thursday,.friday,.saturday,.sunday{
+    text-align: center;
+    border: 0.3px solid #816b5b;
+    padding: 2rem;
+    width: 200px;
+    background: #231d19;
+}
+
+.paragraph_font{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.heading_fontsize{
+    font-size: 30px;
+    color: #edc9b0;
+    
+}

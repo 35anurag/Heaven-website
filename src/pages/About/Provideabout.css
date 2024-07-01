@@ -1,0 +1,108 @@
+.prideabout_heading{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    color: whitesmoke;
+}
+
+.provideabout_services{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.provideabout_services_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.provideabout_services_first, .provideabout_services_second, .provideabout_services_third{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 0.5px solid whitesmoke;
+    padding: 2rem;
+    width: 300px;
+}
+
+.provideabout_services_first h1{ 
+    font-size: 25px;
+    color: #edc9b0;
+}
+
+.provideabout_services_first p{ 
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.provideabout_services_second h1{ 
+    font-size: 25px;
+    color: #edc9b0;
+}
+
+.provideabout_services_second p{ 
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.provideabout_services_third h1{ 
+    font-size: 25px;
+    color: #edc9b0;
+}
+
+.provideabout_services_third p{ 
+    font-size: 15px;
+    opacity: 70%;
+}
+
+
+.provideabout_services_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.provideabout_services_forth, .provideabout_services_fifth, .provideabout_services_sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 0.5px solid whitesmoke;
+    padding: 2rem;
+    width: 300px;
+}
+
+.provideabout_services_forth h1{ 
+    font-size: 25px;
+    color: #edc9b0;
+}
+
+.provideabout_services_forth p{ 
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.provideabout_services_fifth h1{ 
+    font-size: 25px;
+    color: #edc9b0;
+}
+
+.provideabout_services_fifth p{ 
+    font-size: 15px;
+    opacity: 70%;
+}
+
+.provideabout_services_sixth h1{ 
+    font-size: 25px;
+    color: #edc9b0;
+}
+
+.provideabout_services_sixth p{ 
+    font-size: 15px;
+    opacity: 70%;
+}
+
+
+

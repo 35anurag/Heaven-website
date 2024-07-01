@@ -1,0 +1,136 @@
+.pricing{
+    height: 100vh;
+    background-color: #141414;
+    padding-top: 3rem;
+    padding-top: 3rem;
+}
+
+.price_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.basic, .master, .advance{
+    width:400px;
+    height: auto;
+    padding: 2rem;
+    border: 0.3px solid #816b5b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.basic_heading, .master_heading, .advance_heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: #edc9b0;
+}
+
+.basic_price, .master_price, .advance_price{
+    color: whitesmoke;
+    font-size: 20px
+}
+
+.basic_price>span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.master_price>span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.advance_price>span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.basic_paragraph, .master_paragraph, .advance_paragraph{
+    color: whitesmoke;
+}
+
+.basic_list, .master_list, .advance_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.basic_list_one, .basic_list_two, .basic_list_three{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.master_list_one, .master_list_two, .master_list_three{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.advance_list_one, .advance_list_two, .advance_list_three{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.basic_list_one>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+.basic_list_two>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+
+.basic_list_three>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+.master_list_one>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+.master_list_two>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+
+.master_list_three>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+.advance_list_one>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+.advance_list_two>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+.advance_list_three>svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}

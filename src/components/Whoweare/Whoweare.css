@@ -1,0 +1,99 @@
+.home_whoweare {
+    background: #141414;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.whoweare_topcontent {
+    border: 0.1px solid rgb(59, 59, 59);
+    padding: 3rem;
+    padding-left: 6rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.image_field {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.image {
+    
+    width: 250px;
+    height: auto;
+    box-shadow: 35px 25px 10px #edc9b0;
+}
+
+.whoweare_rightside {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.whoweare_rightside>p {
+    display: flex;
+    color: rgb(185, 185, 185);
+    font-weight: 600;
+}
+
+.whoweare_contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-right: 3rem;
+}
+
+
+.whoweare_contents>h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #edc9b0;
+    line-height: 100%;
+}
+
+.whoweare_contents>p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(185, 185, 185);
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+.whoweare_link {
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+    box-shadow: 5px 5px #edc9b0;
+    
+}
+
+.whoweare_link:hover{
+    color: #edc9b0;
+    box-shadow: 7px 7px #edc9b0;
+    transition: ease-in-out 1ms;
+}
+
+.whoweare_about {
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.whoweare_about>svg{
+    width: 20px;
+    height: auto;
+    rotate: -40deg;
+}

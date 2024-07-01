@@ -1,0 +1,33 @@
+.home_container {
+    height: 85vh;
+    background: #141414;
+    color: #edc9b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.1px solid rgb(59, 59, 59);
+    position: relative;
+}
+
+/* .home_image img{
+    width: 1263px;
+    height: 494px;
+    opacity: 70%;
+} */
+
+.home_heading {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.heading {
+    font-size: 70px;
+}
+
+.home_heading p {
+    color: whitesmoke;
+    font-size: 20px;
+}

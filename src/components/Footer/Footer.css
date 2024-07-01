@@ -1,0 +1,44 @@
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: whitesmoke;
+    /* height: 40vh; */
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.footer_phone{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer_email{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer_facebook, .footer_instagram{
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}

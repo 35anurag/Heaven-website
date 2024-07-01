@@ -1,0 +1,73 @@
+.testimonial-slider {
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .testimonial-slider h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+  
+  #app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.slider_div{
+  background-color: #141414;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  gap: 3rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px #edc9b0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.slider_div h2 {
+  font-size: 22px;
+  color: #edc9b0;
+}
+
+.slider_div p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}  
