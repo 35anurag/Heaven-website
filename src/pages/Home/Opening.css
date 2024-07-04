@@ -27,3 +27,20 @@
     color: #edc9b0;
     
 }
+
+/* ================ MEDIA QUERIES(SMALL DEVICES)==================== */
+@media (max-width: 600px){
+    .opening_weekdays{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+/* ================ MEDIA QUERIES(MEDIUM DEVICES)==================== */ 
+@media (min-width: 601px) and (max-width: 1024px){
+
+    
+}

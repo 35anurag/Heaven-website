@@ -1,5 +1,5 @@
 .home_container {
-    height: 85vh;
+    height: 86vh;
     background: #141414;
     color: #edc9b0;
     display: flex;
@@ -9,18 +9,11 @@
     position: relative;
 }
 
-/* .home_image img{
-    width: 1263px;
-    height: 494px;
-    opacity: 70%;
-} */
-
 .home_heading {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
+    align-items: center;
 }
 
 .heading {
@@ -29,5 +22,20 @@
 
 .home_heading p {
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: -30px;
+}
+
+/* ================ MEDIA QUERIES(SMALL DEVICES)==================== */
+@media (max-width: 600px){
+    .home_heading{
+        text-align: center;
+    }
+    
+}
+
+/* ================ MEDIA QUERIES(MEDIUM DEVICES)==================== */ 
+@media (min-width: 601px) and (max-width: 1024px){
+
+    
 }
