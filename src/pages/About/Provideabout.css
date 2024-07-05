@@ -104,5 +104,33 @@
     opacity: 70%;
 }
 
+/* ================ MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media (max-width: 600px) {
+    .provideabout {
+      padding: 2rem 1rem;
+    }
+  
+    .prideabout_heading {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .provideabout_services_top,
+    .provideabout_services_bottom {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .provideabout_services_first,
+    .provideabout_services_second,
+    .provideabout_services_third,
+    .provideabout_services_forth,
+    .provideabout_services_fifth,
+    .provideabout_services_sixth {
+      width: 90%;
+      padding: 1rem;
+    }
+  }
+
 
 

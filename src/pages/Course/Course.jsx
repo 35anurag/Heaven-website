@@ -16,8 +16,8 @@ const Course = () => {
           </p>
           <div className="basic_feature">
             <h2 className="basic_feature_heading">FEATURES</h2>
-            <p className="basic_feature_first">6 - 8 weeks</p>
-            <p className="basic_feature_second">Hair Cutting & Beard setting (Male)</p>
+            <p className="basic_feature_first">- 6 - 8 weeks</p>
+            <p className="basic_feature_second">- Hair Cutting & Beard setting (Male)</p>
           </div>
           <button className="basic_button">Book Now</button>
         </div>
@@ -33,8 +33,8 @@ const Course = () => {
           </p>
           <div className="advance_feature">
             <h2 className="advance_feature_heading">FEATURES</h2>
-            <p className="advance_feature_first">6 - 8 weeks</p>
-            <p className="advance_feature_second">Hair Cutting & Beard setting (Male)</p>
+            <p className="advance_feature_first">- 6 - 8 weeks</p>
+            <p className="advance_feature_second">- Hair Cutting & Beard setting (Male)</p>
           </div>
           <button className="advance_button">Book Now</button>
         </div>
@@ -50,8 +50,8 @@ const Course = () => {
           </p>
           <div className="master_feature">
             <h2 className="master_feature_heading">FEATURES</h2>
-            <p className="master_feature_first">6 - 8 weeks</p>
-            <p className="master_feature_second">Hair Cutting & Beard setting (Male)</p>
+            <p className="master_feature_first">- 6 - 8 weeks</p>
+            <p className="master_feature_second">- Hair Cutting & Beard setting (Male)</p>
           </div>
           <button className="master_button">Book Now</button>
         </div>

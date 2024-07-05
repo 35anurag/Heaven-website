@@ -4,7 +4,7 @@ import Whoweare from "../../components/Whoweare/Whoweare";
 import Provide from "./Provide";
 import Opening from "./Opening";
 import Pricing from "./Pricing";
-import HomeImg from "../../assets/home.png";
+// import HomeImg from "../../assets/home.png";
 
 const Home = () => {
   return (

@@ -10,8 +10,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
   
   .contact_title{
@@ -72,4 +70,44 @@
   .contact_map{
     border-radius: 10px;
     opacity: 70%;
+  }
+
+  /* ================ MEDIA QUERIES(SMALL DEVICES)==================== */
+
+  @media (max-width: 600px) {
+    .contact_contents {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .contact_address iframe {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .contact_form {
+      width: 90%;
+      max-width: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact_title {
+      font-size: 30px;
+    }
+  
+    .contact_form {
+      width: 100%;
+    }
+  
+    .form_group input,
+    .form_group textarea {
+      font-size: 0.9rem;
+    }
+  
+    .submit_button {
+      width: 80px;
+      font-size: 12px;
+    }
   }

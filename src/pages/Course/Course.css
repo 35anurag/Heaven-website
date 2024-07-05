@@ -2,7 +2,6 @@
     background-color: #141414;
     padding-top: 3rem ;   
     padding-bottom: 3rem;
-    /* height: ; */
 }
 
 .course_heading{
@@ -20,7 +19,7 @@
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    /* gap: 5px; */
     justify-content: center;
     color: white;
 }
@@ -35,12 +34,13 @@
     color: whitesmoke;
     font-weight: 600;
     opacity: 80%;
+    margin-top: -1rem;
 }
 
 .basic_content_paragraph, .advance_content_paragraph, .master_content_paragraph{
     font-size: 15px;
     color: whitesmoke;
-    margin-top: 8px;
+    /* margin-top: -1px; */
     margin-bottom: 8px;
     opacity: 80%;
 }
@@ -57,7 +57,7 @@
 }
 
 .basic_button, .advance_button, .master_button{
-    margin-top: 1rem;
+    margin-top: 10px;
     width: 100px;
     padding: 10px;
     background-color: #141414;
@@ -71,7 +71,8 @@
 .basic_feature_first, .advance_feature_first, .master_feature_first{
     font-size: 14px;
     color: whitesmoke;
-    margin-bottom: 3px;
+    margin-bottom: -3px;
+    margin-top: -4px;
     opacity: 80%;
 }
 

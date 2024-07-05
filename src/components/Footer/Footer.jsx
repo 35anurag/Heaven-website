@@ -15,8 +15,8 @@ const Footer = () => {
           <p>All Right Reserved</p>
         </div>
         <div className="footer_right">
-          <p className="footer_phone">+977 9812234226</p>
-          <p className="footer_email">heaven@gmail.com</p>
+          <p className="footer_phone">Ph: +977 9812234226</p>
+          <p className="footer_email">Email: heaven@gmail.com</p>
           <div className="social_media">
             <button className="footer_facebook">
               <FaFacebook />

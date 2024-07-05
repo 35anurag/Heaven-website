@@ -1,4 +1,4 @@
-.pricing{
+/* .pricing{
     height: 100vh;
     background-color: #141414;
     padding-top: 3rem;
@@ -135,7 +135,7 @@
     color: #edc9b0;
 }
 
-/* ================ MEDIA QUERIES(SMALL DEVICES)==================== */
+================ MEDIA QUERIES(SMALL DEVICES)====================
 @media (max-width: 600px){
     .price_container{
         display: flex;
@@ -144,10 +144,115 @@
         justify-content: center;
 
     }
+} */
+
+.pricing{
+    height: auto;
+    background-color: #141414;
+    padding-top: 3rem;
+    padding-bottom: 3rem; /* Changed to bottom padding instead of repeating top padding */
 }
 
-/* ================ MEDIA QUERIES(MEDIUM DEVICES)==================== */ 
-@media (min-width: 601px) and (max-width: 1024px){
+.price_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 
-    
+.basic, .master, .advance{
+    width: 400px;
+    height: auto;
+    padding: 2rem;
+    border: 0.3px solid #816b5b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.basic_heading, .master_heading, .advance_heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: #edc9b0;
+}
+
+.basic_price, .master_price, .advance_price{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.basic_price > span, .master_price > span, .advance_price > span{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.basic_paragraph, .master_paragraph, .advance_paragraph{
+    color: whitesmoke;
+}
+
+.basic_list, .master_list, .advance_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.basic_list_one, .basic_list_two, .basic_list_three,
+.master_list_one, .master_list_two, .master_list_three,
+.advance_list_one, .advance_list_two, .advance_list_three{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.basic_list_one > svg, .basic_list_two > svg, .basic_list_three > svg,
+.master_list_one > svg, .master_list_two > svg, .master_list_three > svg,
+.advance_list_one > svg, .advance_list_two > svg, .advance_list_three > svg{
+    width: 20px;
+    height: auto;
+    color: #edc9b0;
+}
+
+/* ================ MEDIA QUERIES(SMALL DEVICES)==================== */
+@media (max-width: 600px) {
+    .price_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .basic, .master, .advance {
+        width: 90%; /* Adjust width for small devices */
+        padding: 1.5rem;
+    }
+
+    .basic_heading, .master_heading, .advance_heading {
+        font-size: 22px;
+    }
+
+    .basic_price, .master_price, .advance_price {
+        font-size: 18px;
+    }
+
+    .basic_price > span, .master_price > span, .advance_price > span {
+        font-size: 22px;
+    }
+
+    .basic_paragraph, .master_paragraph, .advance_paragraph {
+        font-size: 14px;
+    }
+
+    .basic_list_one, .basic_list_two, .basic_list_three,
+    .master_list_one, .master_list_two, .master_list_three,
+    .advance_list_one, .advance_list_two, .advance_list_three {
+        gap: 3px;
+    }
+
+    .basic_list_one > svg, .basic_list_two > svg, .basic_list_three > svg,
+    .master_list_one > svg, .master_list_two > svg, .master_list_three > svg,
+    .advance_list_one > svg, .advance_list_two > svg, .advance_list_three > svg {
+        width: 18px;
+    }
 }
